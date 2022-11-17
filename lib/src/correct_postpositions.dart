@@ -5,7 +5,7 @@ var postPositions = [
   ['이', '가'],
   ['을', '를'],
   ['과', '와']
-].fold(
+].fold<dynamic>(
     [],
     (value, element) => [
           ...value,
